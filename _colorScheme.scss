@@ -1,0 +1,21 @@
+@mixin Yoav(
+  $color: rgb(202, 124, 124),
+  $fonty: Arial,
+  $backgroundColor: rgb(65, 57, 57)
+) {
+  color: $color;
+  font-family: $fonty;
+  background-color: $backgroundColor;
+  font-weight: 600;
+}
+
+@mixin Yoav2(
+  $color: rgb(204, 196, 124),
+  $fonty: Helvetica,
+  $backgroundColor: rgb(195, 208, 236)
+) {
+  color: $color;
+  font-family: $fonty;
+  background-color: $backgroundColor;
+  font-weight: 800;
+}
